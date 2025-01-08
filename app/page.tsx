@@ -8,10 +8,10 @@ import { WalletModalProvider } from '@solana/wallet-adapter-react-ui'
 
 
 export default function Home() {
-  const [isAuthenticated, setIsAuthenticated] = useState(false)
+  const [setIsAuthenticated] = useState(false)
 
   const handleCorrectPassword = () => {
-    setIsAuthenticated(true)
+    
   }
 
   return (
