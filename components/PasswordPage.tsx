@@ -23,7 +23,7 @@ const PasswordPage: React.FC<PasswordPageProps> = ({ onCorrectPassword }) => {
   const handleKeyDown = (e: React.KeyboardEvent<HTMLDivElement>) => {
     e.preventDefault()
     if (e.key === 'Enter') {
-      if (password === '5383') {
+      if (password === '9590') {
         onCorrectPassword()
       } else {
         setShake(true)

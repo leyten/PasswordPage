@@ -2,8 +2,8 @@ import React from 'react'
 import './globals.css'
 
 export const metadata = {
-  title: '5383',
-  description: '5383',
+  title: '9590',
+  description: 'Are you ready to play, anon?',
 }
 
 export default function RootLayout({
